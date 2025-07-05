@@ -1,7 +1,11 @@
+import Header from "@/modules/Header";
+import Footer from "@/modules/Footer";
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to the Home Page</h1>
+      <Header />
+      <h1>home</h1>
+      <Footer></Footer>
     </div>
   );
 }
