@@ -6,24 +6,28 @@ import Input from "@/atoms/input";
 // so the option changes
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-4 bg-gray-800 text-white">
+    <header className="flex justify-between items-center py-3 px-10 text-white">
       <div className="text-xl font-bold">TradeWise</div>
       <div className="flex space-x-4">
-        <ul>
+        <ul className="flex space-x-4">
           <li>
-            <Button>Features</Button>
+            <Button className="font-bold text-[14x]">Features</Button>
           </li>
           <li>
-            <Button>Pricing</Button>
+            <Button className="font-bold text-[14px]">Pricing</Button>
           </li>
           <li>
-            <Button>Resources</Button>
+            <Button className="font-bold text-[14px]">Resources</Button>
           </li>
           <li>
-            <Button>Get Started</Button>
+            <Button className="bg-highlight text-darkly text-[14px] font-bold">
+              Get Started
+            </Button>
           </li>
           <li>
-            <Button>Log in</Button>
+            <Button className="bg-greenix font-bold min-w-[80px] text-[14px]">
+              Log in
+            </Button>
           </li>
         </ul>
       </div>

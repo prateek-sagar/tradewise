@@ -6,7 +6,11 @@ export default defineConfig({
   plugins: [tsconfigPaths(), react()],
   test: {
     browser: {
-      provider: ''
+      provider: 'playwright',
+      enabled: true,
+      instances: [{
+        browser: 'chromium',
+      }]
     },
   },
 })

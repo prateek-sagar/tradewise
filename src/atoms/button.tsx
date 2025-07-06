@@ -14,7 +14,15 @@ export default function Button({
   disabled = false,
 }: ButtonProps) {
   return (
-    <button className={`rounded-full px-1.5 py-0.5`} onClick={onclick}>
+    <button
+      className={
+        `rounded-full px-4 flex items-center h-10 justify-center cursor-pointer` +
+        " " +
+        className
+      }
+      onClick={onclick}
+      disabled={disabled}
+    >
       {children}
     </button>
   );
