@@ -16,7 +16,7 @@ export default function Button({
   return (
     <button
       className={
-        `rounded-full px-4 flex items-center h-10 justify-center cursor-pointer` +
+        `rounded-[8px] squircle px-3 flex items-center h-8 justify-center cursor-pointer` +
         " " +
         className
       }

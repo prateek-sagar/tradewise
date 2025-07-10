@@ -11,21 +11,21 @@ export default function Header() {
       <div className="flex space-x-4">
         <ul className="flex space-x-4">
           <li>
-            <Button className="font-bold text-[14x]">Features</Button>
+            <Button className="tracking-widest text-sm">Features</Button>
           </li>
           <li>
-            <Button className="font-bold text-[14px]">Pricing</Button>
+            <Button className="tracking-widest text-sm">Pricing</Button>
           </li>
           <li>
-            <Button className="font-bold text-[14px]">Resources</Button>
+            <Button className="tracking-widest text-sm">Resources</Button>
           </li>
           <li>
-            <Button className="bg-highlight text-darkly text-[14px] font-bold">
+            <Button className="bg-highlight text-darkly text-sm  tracking-widest">
               Get Started
             </Button>
           </li>
           <li>
-            <Button className="bg-greenix font-bold min-w-[80px] text-[14px]">
+            <Button className="bg-less-highlight  min-w-[80px] tracking-widest text-sm">
               Log in
             </Button>
           </li>
